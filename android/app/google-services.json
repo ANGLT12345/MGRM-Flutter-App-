@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "377008952869",
+    "project_id": "flutterfire-ui-codelab-8377f",
+    "storage_bucket": "flutterfire-ui-codelab-8377f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377008952869:android:b2455408b1e3cbaf77d1cc",
+        "android_client_info": {
+          "package_name": "com.example.firebase_auth_flutterfire_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ9T1jiTZhvw31_DXtY2HPY9jHNsv3I1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
