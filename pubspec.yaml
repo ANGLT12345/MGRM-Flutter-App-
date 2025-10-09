@@ -14,6 +14,7 @@ dependencies:
   firebase_ui_auth: ^3.0.0
   google_sign_in: ^6.3.0
   firebase_ui_oauth_google: ^2.0.0
+  cloud_firestore: ^6.0.2
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +24,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/assets/customer-12345-qr.png
+    - assets/customer-12345-qr.png
     - assets/dash.png
     - assets/flutterfire_300x.png
     - assets/magorium_landscape.png

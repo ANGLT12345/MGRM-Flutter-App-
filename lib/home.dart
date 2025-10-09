@@ -1,5 +1,43 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
+
+class CustomerDataProvider extends StatelessWidget {
+  const CustomerDataProvider({super.key});
+
+  Future<int> _getCustomerPoints() async {
+    final customerDoc = await FirebaseFirestore.instance
+        .collection('customers')
+        .doc('CUST-12345') // Replace with dynamic customer ID if needed
+        .get();
+
+    if (customerDoc.exists) {
+      return customerDoc.data()?['points'] ?? 0;
+    } else {
+      return 0;
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return FutureBuilder<int>(
+      future: _getCustomerPoints(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const CircularProgressIndicator();
+        } else if (snapshot.hasError) {
+          return const Text('Error retrieving points');
+        } else {
+          final points = snapshot.data ?? 0;
+          return Text(
+            'Points: $points',
+            style: Theme.of(context).textTheme.headlineSmall,
+          );
+        }
+      },
+    );
+  }
+}
 
 // Page 1: QR Code (your existing screen)
 class QrCodePage extends StatelessWidget {
@@ -59,14 +97,91 @@ class RewardsPage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text('Rewards Page'),
+          SizedBox(height: 20),
           ElevatedButton(
-            child: Text("Redeem IPhone 17 Pro Max"),
-            style: ButtonStyle(
-              foregroundColor: WidgetStateProperty.all<Color>(Colors.blue),
-              backgroundColor: WidgetStateProperty.all<Color>(Colors.yellow),
+            child: Column(
+              children: [
+                Image.asset(
+                  '/iphone.png', // Replace with your image path
+                  width: 100,
+                  height: 70,
+                  fit: BoxFit.contain,
+                ),
+                const SizedBox(height: 10),
+                Text("Redeem IPhone 17 Pro Max"),
+              ],
             ),
-            onPressed: () {},
+            style: ButtonStyle(
+              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(6.7),
+                ),
+              ),
+              foregroundColor: MaterialStateProperty.all<Color>(Colors.white),
+              backgroundColor: MaterialStateProperty.all<Color>(Colors.green),
+            ),
+            onPressed: () {
+              showDialog(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: const Text("Insufficient Points"),
+                  content: const Text(
+                    "You do not have enough points to redeem this reward.",
+                  ),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: const Text("Close"),
+                    ),
+                  ],
+                ),
+              );
+            },
+          ),
+          SizedBox(height: 20),
+          ElevatedButton(
+            child: Column(
+              children: [
+                Image.asset(
+                  '/5dollarntuc.png', // Replace with your image path
+                  width: 100,
+                  height: 70,
+                  fit: BoxFit.contain,
+                ),
+                const SizedBox(height: 5),
+                Text("Redeem \$5 Fairprice Voucher"),
+              ],
+            ),
+            style: ButtonStyle(
+              shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(6.7),
+                ),
+              ),
+              foregroundColor: WidgetStateProperty.all<Color>(Colors.white),
+              backgroundColor: WidgetStateProperty.all<Color>(Colors.green),
+            ),
+            onPressed: () {
+              showDialog(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: const Text("Are you sure?"),
+                  content: const Text(
+                    "Do you really want to redeem this reward for 500 points?",
+                  ),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: const Text("Yes"),
+                    ),
+                    TextButton(
+                      onPressed: () => Navigator.of(context).pop(),
+                      child: const Text("No"),
+                    ),
+                  ],
+                ),
+              );
+            },
           ),
         ],
       ),
@@ -84,10 +199,22 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
-  final List<Widget> _pages = const [
-    QrCodePage(),
-    GamesProgressPage(),
-    RewardsPage(),
+  final List<Widget> _pages = [
+    Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: const [
+        CustomerDataProvider(), // Added CustomerDataProvider here
+        QrCodePage(),
+      ],
+    ),
+    const GamesProgressPage(),
+    Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: const [
+        CustomerDataProvider(), // Added CustomerDataProvider here
+        RewardsPage(),
+      ],
+    ),
   ];
 
   @override

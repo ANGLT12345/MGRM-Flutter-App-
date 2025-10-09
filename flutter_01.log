@@ -1,0 +1,117 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d chrome --devtools-server-address http://127.0.0.1:9100/ --target /Users/anglt/MGRM-Flutter-App-/lib/main.dart
+
+## exception
+
+HttpException: HttpException: Unexpected response (unsolicited response without request). This can be caused when a malformed request is sent to the server (e.g. a GET request containing a body) or if the server is not correctly implemented. Future requests to this server, using the same HttpClient, are likely to fail.
+
+```
+#0      new _HttpClientConnection.<anonymous closure> (dart:_http/http_impl.dart:2203:11)
+#1      _rootRunUnary (dart:async/zone.dart:1538:47)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+#3      _CustomZone.runUnaryGuarded (dart:async/zone.dart:1329:7)
+#4      _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+#5      _BufferingStreamSubscription._add (dart:async/stream_impl.dart:312:7)
+#6      _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:798:19)
+#7      _StreamController._add (dart:async/stream_controller.dart:663:7)
+#8      _StreamController.add (dart:async/stream_controller.dart:618:5)
+#9      _HttpParser._headersEnd (dart:_http/http_parser.dart:426:17)
+#10     _HttpParser._doParse (dart:_http/http_parser.dart:787:15)
+#11     _HttpParser._parse (dart:_http/http_parser.dart:342:7)
+#12     _HttpParser._onData (dart:_http/http_parser.dart:918:5)
+#13     _rootRunUnary (dart:async/zone.dart:1538:47)
+#14     _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+#15     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1329:7)
+#16     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+#17     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:312:7)
+#18     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:798:19)
+#19     _StreamController._add (dart:async/stream_controller.dart:663:7)
+#20     _StreamController.add (dart:async/stream_controller.dart:618:5)
+#21     _Socket._onData (dart:io-patch/socket_patch.dart:2912:41)
+#22     _rootRunUnary (dart:async/zone.dart:1538:47)
+#23     _CustomZone.runUnary (dart:async/zone.dart:1429:19)
+#24     _CustomZone.runUnaryGuarded (dart:async/zone.dart:1329:7)
+#25     _BufferingStreamSubscription._sendData (dart:async/stream_impl.dart:381:11)
+#26     _BufferingStreamSubscription._add (dart:async/stream_impl.dart:312:7)
+#27     _SyncStreamControllerDispatch._sendData (dart:async/stream_controller.dart:798:19)
+#28     _StreamController._add (dart:async/stream_controller.dart:663:7)
+#29     _StreamController.add (dart:async/stream_controller.dart:618:5)
+#30     _RawSecureSocket._sendReadEvent (dart:io/secure_socket.dart:1208:19)
+#31     _rootRun (dart:async/zone.dart:1517:47)
+#32     _CustomZone.run (dart:async/zone.dart:1422:19)
+#33     _CustomZone.runGuarded (dart:async/zone.dart:1321:7)
+#34     _CustomZone.bindCallbackGuarded.<anonymous closure> (dart:async/zone.dart:1362:23)
+#35     _rootRun (dart:async/zone.dart:1525:13)
+#36     _CustomZone.run (dart:async/zone.dart:1422:19)
+#37     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:1345:23)
+#38     Timer._createTimer.<anonymous closure> (dart:async-patch/timer_patch.dart:18:15)
+#39     _Timer._runTimers (dart:isolate-patch/timer_impl.dart:423:19)
+#40     _Timer._handleMessage (dart:isolate-patch/timer_impl.dart:454:5)
+#41     _RawReceivePort._handleMessage (dart:isolate-patch/isolate_patch.dart:193:12)
+```
+
+## flutter doctor
+
+```
+[!] Flutter (Channel stable, 3.35.5, on macOS 15.5 24F74 darwin-arm64, locale en-US) [529ms]
+    • Flutter version 3.35.5 on channel stable at /Users/anglt/MGRM Web App 2/MGRM-Web-App-/flutter
+    ! The flutter binary is not on your path. Consider adding /Users/anglt/MGRM Web App 2/MGRM-Web-App-/flutter/bin to your path.
+    ! The dart binary is not on your path. Consider adding /Users/anglt/MGRM Web App 2/MGRM-Web-App-/flutter/bin to your path.
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision ac4e799d23 (10 days ago), 2025-09-26 12:05:09 -0700
+    • Engine revision d3d45dcf25
+    • Dart version 3.9.2
+    • DevTools version 2.48.0
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-lldb-debugging
+    • If those were intentional, you can disregard the above warnings; however it is recommended to use "git" directly to perform update checks and upgrades.
+
+[!] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [939ms]
+    • Android SDK at /Users/anglt/Library/Android/sdk
+    • Emulator version 36.1.9.0 (build_id 13823996) (CL:N/A)
+    ✗ cmdline-tools component is missing.
+      Try installing or updating Android Studio.
+      Alternatively, download the tools from https://developer.android.com/studio#command-line-tools-only and make sure to set the ANDROID_HOME environment variable.
+      See https://developer.android.com/studio/command-line for more details.
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/to/macos-android-setup for more details.
+
+[✗] Xcode - develop for iOS and macOS [102ms]
+    ✗ Xcode installation is incomplete; a full installation is necessary for iOS and macOS development.
+      Download at: https://developer.apple.com/xcode/
+      Or install Xcode via the App Store.
+      Once installed, run:
+        sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+        sudo xcodebuild -runFirstLaunch
+    ✗ CocoaPods not installed.
+        CocoaPods is a package manager for iOS or macOS platform code.
+        Without CocoaPods, plugins will not work on iOS or macOS.
+        For more info, see https://flutter.dev/to/platform-plugins
+      For installation instructions, see https://guides.cocoapods.org/using/getting-started.html#installation
+
+[✓] Chrome - develop for the web [37ms]
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[!] Android Studio (not installed) [37ms]
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
+
+[✓] VS Code (version 1.94.2) [36ms]
+    • VS Code at /Users/anglt/Documents/Archives/Applications /Visual Studio Code.app/Contents
+    • Flutter extension version 3.120.0
+
+[✓] Connected device (2 available) [116ms]
+    • macOS (desktop) • macos  • darwin-arm64   • macOS 15.5 24F74 darwin-arm64
+    • Chrome (web)    • chrome • web-javascript • Google Chrome 140.0.7339.214
+
+[☠] Network resources (the doctor check crashed)
+    ✗ Due to an error, the doctor check did not complete. If the error message below is not helpful, please let us know about this issue at https://github.com/flutter/flutter/issues.
+    ✗ Exception: Network resources exceeded maximum allowed duration of 0:04:30.000000
+    • 
+
+! Doctor found issues in 5 categories.
+```

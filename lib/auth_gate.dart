@@ -49,7 +49,7 @@ class AuthGate extends StatelessWidget {
               return const Padding(
                 padding: EdgeInsets.only(top: 16),
                 child: Text(
-                  'By signing in, you agree to our terms and conditions.',
+                  'By signing in, you agree to our terms and conditions. For any queries, please email us at hello@hello.com',
                   style: TextStyle(color: Colors.grey),
                 ),
               );
