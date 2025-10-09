@@ -52,7 +52,7 @@ class QrCodePage extends StatelessWidget {
             width: 250,
             height: 250,
             child: Image.asset(
-              'assets/customer-12345-qr.png',
+              'assets/assets/customer-12345-qr.png',
               width: 250,
               height: 250,
               fit: BoxFit.contain,
@@ -102,7 +102,7 @@ class RewardsPage extends StatelessWidget {
             child: Column(
               children: [
                 Image.asset(
-                  '/iphone.png', // Replace with your image path
+                  'assets/assets/iphone.png', // Replace with your image path
                   width: 100,
                   height: 70,
                   fit: BoxFit.contain,
