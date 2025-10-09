@@ -143,7 +143,7 @@ class RewardsPage extends StatelessWidget {
             child: Column(
               children: [
                 Image.asset(
-                  '/5dollarntuc.png', // Replace with your image path
+                  'assets/assets/5dollarntuc.png', // Replace with your image path
                   width: 100,
                   height: 70,
                   fit: BoxFit.contain,
