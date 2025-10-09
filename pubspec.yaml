@@ -24,8 +24,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/customer-12345-qr.png
-    - assets/dash.png
-    - assets/flutterfire_300x.png
-    - assets/magorium_landscape.png
-    - assets/magorium_pte_ltd_logo.jpeg
+    - assets/assets/customer-12345-qr.png
+    - assets/assets/dash.png
+    - assets/assets/flutterfire_300x.png
+    - assets/assets/magorium_landscape.png
+    - assets/assets/magorium_pte_ltd_logo.jpeg
