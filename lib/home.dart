@@ -102,7 +102,7 @@ class RewardsPage extends StatelessWidget {
             child: Column(
               children: [
                 Image.asset(
-                  'assets/iphone.png', // Replace with your image path
+                  '/assets/iphone.png', // Replace with your image path
                   width: 100,
                   height: 70,
                   fit: BoxFit.contain,
