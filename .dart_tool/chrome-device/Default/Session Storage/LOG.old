@@ -1,2 +1,8 @@
-2025/10/09-10:00:03.021 470f Creating DB /private/var/folders/g_/d5468p611fv4p6cw58hp3njc0000gp/T/flutter_tools.pKvo3d/flutter_tools_chrome_device.ERTgwo/Default/Session Storage since it was missing.
-2025/10/09-10:00:03.028 470f Reusing MANIFEST /private/var/folders/g_/d5468p611fv4p6cw58hp3njc0000gp/T/flutter_tools.pKvo3d/flutter_tools_chrome_device.ERTgwo/Default/Session Storage/MANIFEST-000001
+2025/10/10-10:00:24.631 1ffcf Reusing MANIFEST /private/var/folders/g_/d5468p611fv4p6cw58hp3njc0000gp/T/flutter_tools.T7cFXl/flutter_tools_chrome_device.wzZb6I/Default/Session Storage/MANIFEST-000001
+2025/10/10-10:00:24.632 1ffcf Recovering log #10
+2025/10/10-10:00:24.633 1ffcf Reusing old log /private/var/folders/g_/d5468p611fv4p6cw58hp3njc0000gp/T/flutter_tools.T7cFXl/flutter_tools_chrome_device.wzZb6I/Default/Session Storage/000010.log 
+2025/10/10-10:00:24.634 1ffcf Delete type=0 #3
+2025/10/10-10:00:24.634 1ffcf Delete type=0 #8
+2025/10/10-10:54:11.621 1ffcf Level-0 table #14: started
+2025/10/10-10:54:11.637 1ffcf Level-0 table #14: 602209 bytes OK
+2025/10/10-10:54:11.644 1ffcf Delete type=0 #10
