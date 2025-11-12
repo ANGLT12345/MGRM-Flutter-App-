@@ -329,7 +329,7 @@ class RewardsPage extends StatelessWidget {
           itemBuilder: (context, index) {
             final reward = rewardDocs[index].data() as Map<String, dynamic>;
             final rewardName = reward['name'] ?? 'Reward';
-            final imageAsset = reward['image'] ?? 'default.png';
+            final imageAsset = reward['image'] ?? 'assets/default.png';
             final pointsRequired = reward['points_required'] ?? 0;
 
             return Padding(
@@ -435,7 +435,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         padding: const EdgeInsets.all(1),
                         child: AspectRatio(
                           aspectRatio: 3,
-                          child: Image.asset('magorium_landscape.png'),
+                          child: Image.asset('assets/magorium_landscape.png'),
                         ),
                       ),
                     ],
