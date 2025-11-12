@@ -1,0 +1,18 @@
+"/Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/TimestampEncodingStrategy.swift":
+  object: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampEncodingStrategy.o"
+  swift-dependencies: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampEncodingStrategy.swiftdeps"
+  diagnostics: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampEncodingStrategy.dia"
+  dependencies: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampEncodingStrategy.d"
+  const-values: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampEncodingStrategy.swiftconstvalues"
+"/Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/TimestampDecodingStrategy.swift":
+  swift-dependencies: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.swiftdeps"
+  object: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.o"
+  const-values: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.swiftconstvalues"
+  dependencies: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.d"
+  diagnostics: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.dia"
+"/Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/Transaction+WriteEncodable.swift":
+  const-values: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Transaction+WriteEncodable.swiftconstvalues"
+  object: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Transaction+WriteEncodable.o"
+  diagnostics: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Transaction+WriteEncodable.dia"
+  dependencies: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Transaction+WriteEncodable.d"
+  swift-dependencies: "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Transaction+WriteEncodable.swiftdeps"

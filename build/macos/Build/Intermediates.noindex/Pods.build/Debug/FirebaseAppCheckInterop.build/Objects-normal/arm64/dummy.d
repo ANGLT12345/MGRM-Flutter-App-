@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseAppCheckInterop.build/module.modulemap \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseAppCheckInterop/FirebaseAppCheck/Interop/dummy.m \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/Target\ Support\ Files/FirebaseAppCheckInterop/FirebaseAppCheckInterop-prefix.pch \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Cocoa.framework/Modules/module.modulemap

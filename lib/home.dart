@@ -52,7 +52,7 @@ class QrCodePage extends StatelessWidget {
             width: 250,
             height: 250,
             child: Image.asset(
-              'customer-12345-qr.png',
+              'assets/customer-12345-qr.png',
               width: 250,
               height: 250,
               fit: BoxFit.contain,

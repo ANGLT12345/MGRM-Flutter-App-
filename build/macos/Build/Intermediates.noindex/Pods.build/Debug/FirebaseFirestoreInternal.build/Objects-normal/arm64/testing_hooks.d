@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/testing_hooks.cc \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/testing_hooks.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/api/listener_registration.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/remote/bloom_filter.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/nanopb/byte_string.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/nanopb/pb.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/comparison.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/meta/type_traits.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/attributes.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/config.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/options.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/policy_checks.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/string_view.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/nullability.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/nullability_impl.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/throw_delegate.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/macros.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/optimization.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/port.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/statusor.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/include/firebase/firestore/firestore_errors.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/status.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/status_fwd.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/statusor_internals.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/no_destructor.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/optional.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/utility/utility.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/inline_variable.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/identity.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/invoke.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/bad_optional_access.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/internal/optional.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/memory/memory.h

@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/app_links-master.dia",
+    "emit-module-dependencies" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/app_links-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/app_links-master-emit-module.dia",
+    "swift-dependencies" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/app_links-master.swiftdeps"
+  },
+  "/Users/anglt/.pub-cache/hosted/pub.dev/app_links-6.4.1/macos/app_links/Sources/app_links/AppLinksMacosPlugin.swift" : {
+    "const-values" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/AppLinksMacosPlugin.swiftconstvalues",
+    "dependencies" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/AppLinksMacosPlugin.d",
+    "diagnostics" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/AppLinksMacosPlugin.dia",
+    "index-unit-output-path" : "/Pods.build/Debug/app_links.build/Objects-normal/arm64/AppLinksMacosPlugin.o",
+    "llvm-bc" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/AppLinksMacosPlugin.bc",
+    "object" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/AppLinksMacosPlugin.o",
+    "swift-dependencies" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/AppLinksMacosPlugin.swiftdeps",
+    "swiftmodule" : "/Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/app_links.build/Objects-normal/arm64/AppLinksMacosPlugin~partial.swiftmodule"
+  }
+}

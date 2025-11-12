@@ -1,0 +1,46 @@
+dependencies: \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/telemetry/stats.cc \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/telemetry/stats.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/include/grpc/support/port_platform.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/string_view.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/attributes.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/config.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/options.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/policy_checks.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/nullability.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/nullability_impl.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/meta/type_traits.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/throw_delegate.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/macros.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/optimization.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/port.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/span.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/internal/span.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/algorithm/algorithm.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/telemetry/histogram_view.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/telemetry/stats_data.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/util/per_cpu.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/include/grpc/support/cpu.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/util/no_destruct.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/util/construct_destruct.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/str_cat.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/has_absl_stringify.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/internal/resize_uninitialized.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/internal/stringify_sink.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/numbers.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/endian.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/casts.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/identity.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/unaligned_access.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/numeric/bits.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/numeric/internal/bits.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/numeric/int128.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/compare.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/numeric/int128_have_intrinsic.inc \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/str_join.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/internal/str_join_internal.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/raw_logging.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/atomic_hook.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/log_severity.h \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/internal/ostringstream.h

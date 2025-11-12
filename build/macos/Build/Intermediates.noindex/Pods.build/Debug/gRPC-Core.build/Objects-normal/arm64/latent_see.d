@@ -1,0 +1,5 @@
+dependencies: \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/util/latent_see.cc \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/src/core/util/latent_see.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/gRPC-Core/include/grpc/support/port_platform.h

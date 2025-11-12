@@ -1,0 +1,34 @@
+moduledependenciestarget: \
+  /Users/anglt/MGRM-Flutter-App--3/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestoreInternal.build/module.modulemap \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/Target\ Support\ Files/FirebaseFirestoreInternal/FirebaseFirestoreInternal-umbrella.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Cocoa.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRAggregateField.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRAggregateQuery.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRAggregateSource.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRAggregateQuerySnapshot.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRCollectionReference.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRQuery.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRFirestoreSource.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRListenerRegistration.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRSnapshotListenOptions.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRDocumentChange.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRDocumentReference.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRDocumentSnapshot.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FirebaseFirestore.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRFieldPath.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRFieldValue.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRFilter.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRFirestore.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRFirestoreErrors.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRFirestoreSettings.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRGeoPoint.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRLoadBundleTask.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRLocalCacheSettings.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRQuerySnapshot.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRSnapshotMetadata.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRTransaction.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRTransactionOptions.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRWriteBatch.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRPersistentCacheIndexManager.h \
+  /Users/anglt/MGRM-Flutter-App--3/macos/Pods/FirebaseFirestoreInternal/Firestore/Source/Public/FirebaseFirestore/FIRVectorValue.h
