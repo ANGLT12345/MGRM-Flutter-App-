@@ -1,5 +1,0 @@
-
-module desktop_webview_auth.Swift {
-  header "desktop_webview_auth-Swift.h"
-  requires objc
-}

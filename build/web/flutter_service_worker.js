@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "844ce0e1e211afa6d56bbf92b8081bb5",
+const RESOURCES = {"flutter_bootstrap.js": "e3d0a1862ec213ac1c674753d9cd8453",
 "version.json": "b6b41ade20989c5805799969e02d4626",
 "index.html": "e9afc6ad66545cc224073de37fcdcc53",
 "/": "e9afc6ad66545cc224073de37fcdcc53",
@@ -22,8 +22,6 @@ const RESOURCES = {"flutter_bootstrap.js": "844ce0e1e211afa6d56bbf92b8081bb5",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/AssetManifest.bin": "c251428c51471f44f7e9a0e1658c2a4b",
 "assets/fonts/MaterialIcons-Regular.otf": "9f4b1a5d393ab9beeb414913c6d254bf",
-"assets/assets/5dollarntuc.png": "d31d0b221271de3d1cc2098321eacb20",
-"assets/assets/dash.png": "aee1f56dc11b79954b438773dc934e6a",
 "assets/assets/magorium_landscape.png": "705f7a0bc62ccf4f4a3a1d22b180253d",
 "assets/assets/flutterfire_300x.png": "4b238781c9e5348944f6325cc4a4d3c8",
 "assets/assets/customer-12345-qr.png": "3b39febb8ca5e9b02eefd37208ae9bb6",

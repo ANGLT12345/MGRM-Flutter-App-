@@ -1,4 +1,0 @@
-
-module desktop_webview_auth.__Swift {
-  exclude header "desktop_webview_auth-Swift.h"
-}
