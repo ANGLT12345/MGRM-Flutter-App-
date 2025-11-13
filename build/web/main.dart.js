@@ -48631,7 +48631,7 @@ if(s==null)s=0
 return A.bA("Points: "+s,r,r,r,A.Y(a).ok.f,r,r)}},
 $S:413}
 A.Ud.prototype={
-H(a){var s=null,r=A.dl(A.RZ("customer-12345-qr.png",B.E,B.jy,250,250),250,250),q=A.Y(a).ok.c
+H(a){var s=null,r=A.dl(A.RZ("assets/customer-12345-qr.png",B.E,B.jy,250,250),250,250),q=A.Y(a).ok.c
 q=q==null?s:q.K0(18)
 return A.dE(A.cF(A.b([r,A.dE(A.bA("Please scan QR Code on Recycling Bin\n",s,s,s,q==null?B.Zq:q,B.bx,s),s,s),B.UF],t.p),B.F,B.u,B.L),s,s)}}
 A.Dy.prototype={
@@ -48766,7 +48766,7 @@ t.a.a(o)
 s=o.h(0,"name")
 if(s==null)s="Reward"
 r=o.h(0,"image")
-if(r==null)r="default.png"
+if(r==null)r="assets/default.png"
 q=o.h(0,"points_required")
 if(q==null)q=0
 o=t.De
@@ -48788,7 +48788,7 @@ A.di(this.a,!1).j5(s)},
 $S:0}
 A.aA9.prototype={
 $1(a){var s=null,r=A.aO2(s,!0,B.a_I),q=A.b([new A.H1(new A.aA7())],t.sf)
-return new A.tP(A.b([B.JL,new A.aT(B.Kv,new A.vC(3,A.RZ("magorium_landscape.png",B.E,s,s,s),s),s)],t.p),q,r,s,s,s)},
+return new A.tP(A.b([B.JL,new A.aT(B.Kv,new A.vC(3,A.RZ("assets/magorium_landscape.png",B.E,s,s,s),s),s)],t.p),q,r,s,s,s)},
 $S:433}
 A.aA7.prototype={
 $1(a){A.di(a,!1).de()},
